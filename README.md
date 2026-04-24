@@ -6,3 +6,5 @@ Neste arquivo nos temos anotações sobre como utilizar:
 -Favcons (pg 89)
 -Elementos multimidia (pg 90-98)
 -Formularios (pg 99-115)
+
+*importante lembrar que terão alguns arquivos faltando pois o repositorio não aguenta mais que 25mb
