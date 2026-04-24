@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Olá, Mundo!</h1>
+  <p>Este é um documento HTML básico.</p>
+
+  <table border="1"> <!--Cria uma tabela-->
+    <thead>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Linha 1 - Coluna 1</td>
+        <td>Linha 1 - Coluna 2</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Linha 2 - Coluna 1</td>
+        <td>Linha 2 - Coluna 2</td>
+      </tr>
+    </tfoot>
+  </table>
+ 
+  <!--Tentativa falha de colocar uma imagem no HTML-->
+  <link rel="shortcut icon"  
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5OOTSjztEAvNrC_Q0TlJnowxBqko2KcbsA&s"
+    type="image/x-icon">
+<!--Audios de música-->
+  <audio src="Death by Glamour (DAREKA Remix).wav" controls></audio>
+
+  <audio src="TYLER THE CREATOR FEAT. KALI UCHIS - SEE YOU AGAIN (REJACK REMIX).wav" controls></audio>
+<br>
+<!--Vídeos gravados-->
+  <video 
+  src="Fire_camo_video.mp4" controls="controls" type="video/webm" width="400px">
+  </video>
+
+<!--Vídeos direto do YouTube-->
+    <iframe 
+    width="800" 
+    height="365" 
+    src="https://www.youtube.com/embed/SXWcNL-7OtY" 
+    title="SÃO PAULO X LIVERPOOL MELHORES MOMENTOS - MUNDIAL 2005 FIFA WORLD CLUB CUP" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+    </iframe>
+
+    
+    
+    <form action="/página-processa-dados-do-form"
+method="post">
+<div>
+<label for="nome">Nome:</label>
+<input type="text" id="nome" />
+</div>
+<div>
+<label for="email">E-mail:</label>
+<input type="email" id="email" />
+</div>
+<div>
+<label for="msg">Mensagem:</label>
+<textarea id="msg"></textarea>
+</div>
+<div class="button">
+<button type="submit">Enviar sua mensagem</button>
+</div>
+</form>
+
+
+<label for="fruta">Escolha uma fruta:</label>
+<input list="frutas" id="fruta" name="fruta">
+
+<datalist id="frutas">
+  <option value="Maçã"></option>
+  <option value="Banana"></option>
+  <option value="Morango"></option>
+  <option value="Abacaxi"></option>
+  <option value="Melancia"></option>
+  <option value="Pera"></option>
+  <option value="Uva"></option>
+</datalist>
+
+    <br>
+    <br>
+    <br>
+
+  |<button type="button">
+    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2026.png">
+  </button>
+
+
+</body>
+
+</html>
